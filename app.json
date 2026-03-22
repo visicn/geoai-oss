@@ -1,0 +1,33 @@
+{
+  "id": "9ad93ae1-2a14-4a5a-860c-7127fc8a5835",
+  "name": "GeoAI OSS",
+  "publisher": "MAGNAL s.p.",
+  "version": "1.0.0.0",
+  "brief": "GeoAI OSS - AI-Powered Geocoding for Customer & Vendor",
+  "description": "Open source geocoding, map links, and AI prompt functionality for Business Central. Supports Azure AI Foundry, Google Maps, and Azure Maps.",
+  "logo": "",
+  "url": "https://github.com/visicn/geoai-oss",
+  "privacyStatement": "https://github.com/visicn/geoai-oss/blob/main/SECURITY.md",
+  "EULA": "https://github.com/visicn/geoai-oss/blob/main/LICENSE",
+  "help": "https://github.com/visicn/geoai-oss/wiki",
+  "dependencies": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 70199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "target": "Cloud",
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

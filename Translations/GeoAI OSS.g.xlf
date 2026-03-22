@@ -1,0 +1,2164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="GeoAI OSS">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2731511875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Geocode Cache</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 59327405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cache Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Cache Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 3865998304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confidence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Confidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 3572756595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Created DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 2027911488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Used DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Last Used DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 1266564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Latitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 1270796821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Longitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Longitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 1715873738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Reverse Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2731511875 - Field 158789842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Geocode Cache - Field Usage Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Prompt Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3205983750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Anchor Entity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Anchor Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3205983750 - Method 2126772001 - NamedType 2548754203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OSS version only supports Any, Customer, and Vendor anchor entities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Anchor Entity - Method OnValidate - NamedType UnsupportedAnchorErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 2812585964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confidence Threshold Override</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Confidence Override - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 2698853144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Radius (km)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Default Radius (km) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 694256805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Entity Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 694256805 - Method 2126772001 - NamedType 1532517125" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OSS version only supports Customer and Vendor entity types.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Entity Type - Method OnValidate - NamedType UnsupportedEntityTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 1787696736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Intent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 2732087686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Last Modified DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3359165130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Max Results - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3439905066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output Schema</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Output Schema - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3924009437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Scenario Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 593885934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Scope - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 593885934 - Method 2126772001 - NamedType 96893358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OSS version only supports Self, Selection, and Region scopes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Scope - Method OnValidate - NamedType UnsupportedScopeErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 2521456148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>System Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field System Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 221469294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Entity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Target Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 221469294 - Method 2126772001 - NamedType 3171612627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OSS version only supports Any, Same as Anchor, Customer, and Vendor target entities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Target Entity - Method OnValidate - NamedType UnsupportedTargetErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 4193427951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Template Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 329424276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 1301635125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tools Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Tools Json - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 3344066439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Variables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1985356211 - Field 237762718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Prompt Template - Field Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Result Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 1983086656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Distance (km)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Distance (km) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 137334688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ETA (minutes)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field ETA (minutes) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 1877094740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Item Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 1266564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Latitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 1270796821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Longitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Longitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 4208776898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payload</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Payload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408699259 - Field 2219487564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Result Item - Field Score - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Method 1178923586 - NamedType 2078379749" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing required configuration: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Configuration field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Method ValidateConfiguration - NamedType MissingConfigErr</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 3931242731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Provider</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field AI Provider - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1532131330 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically clear geocode and mark for re-geocoding when address fields change on entities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Auto Geocode on Address Change - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1532131330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto Geocode on Address Change</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Auto Geocode on Address Change - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 3541915011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Maps Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Azure Maps Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 3961749803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cache Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Cache Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 2426745765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cache TTL (Hours)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Cache TTL Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1854195181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geographic search radius in kilometers for candidate selection. Candidates beyond this distance from the anchor are excluded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Candidate Search Radius - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1854195181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Candidate Search Radius (km)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Candidate Search Radius - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1530695174 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default precision for geohash encoding (1-12 characters). Higher values = smaller area, more precise. Typical: 4 (~39km), 6 (~1.2km), 8 (~38m).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Default Geohash Precision - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1530695174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Geohash Precision</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Default Geohash Precision - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 987636274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Telemetry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Enable Telemetry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1456961384 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restrict candidates to the same country as the anchor entity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Enforce Same Country - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1456961384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enforce Same Country</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Enforce Same Country - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1954318733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of days to retain geocode cache entries before automatic purge.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Geocode Cache Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1954318733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geocode Cache Days</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Geocode Cache Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1363359139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Google Maps API Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Google Maps API Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 3324488970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local AI Gateway URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Local AI Gateway URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1183342911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map Provider</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Map Provider - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1875682494 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web interface for viewing single location on map (e.g., https://www.google.com/maps for Google or https://www.bing.com/maps for Azure/Bing)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Map View URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1875682494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map View URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Map View URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 504417726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web interface for multi-point directions (e.g., https://www.google.com/maps/dir/)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Maps Directions URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 504417726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maps Directions URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Maps Directions URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 527337377 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geocoding API endpoint (e.g., https://maps.googleapis.com/maps/api/geocode/json)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Maps Endpoint URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 527337377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maps Endpoint URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Maps Endpoint URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 3749613239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum number of candidate entities to send to AI for similarity analysis. Higher values increase accuracy but cost. Hard cap: 200.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Max Candidates Sent To AI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 3749613239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Candidates Sent To AI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Max Candidates Sent To AI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 2012080182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum tokens allowed for input (prompt + context).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Max Input Tokens - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 2012080182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Input Tokens</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Max Input Tokens - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 6255398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of retry attempts for failed AI calls.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Max Retry Attempts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 6255398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Retry Attempts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Max Retry Attempts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1852400685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Microsoft Foundry API Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 629903614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Foundry Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Microsoft Foundry Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 4290668786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Foundry Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Microsoft Foundry Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 603122754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Model Deployment Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Microsoft Foundry Model - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1269813797 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level of PII redaction before sending data to AI. Light: mask emails/phones. Strict: aggressive masking.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Redaction Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1269813797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Redaction Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Redaction Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 1269813797 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None,Light,Strict</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Redaction Level - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 349636872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum time to wait for AI response in milliseconds.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Timeout (ms) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 159805838 - Field 349636872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Timeout (ms)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GeoAI Setup - Field Timeout (ms) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1764851532 - Method 2001141240 - NamedType 2100988429" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer not found: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Record ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Geo Provider - Method GetLocationContext - NamedType RecordNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1764851532 - Method 72619945 - NamedType 2747702754" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This entity has geocoding status with Low Confidence. Coordinates may not be accurate.\\Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Geo Provider - Method ValidateGeocodingStatus - NamedType LowConfidenceQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1505310200 - Method 1665861916 - NamedType 966991206" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geocode cache purge completed. %1 entries deleted.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of entries</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Cache Purge - Method OnRun - NamedType PurgeCompletedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2378656486 - Method 850428632 - NamedType 673057885" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity type %1 is not supported for GeoAI operations in the OSS version. Only Customer and Vendor are supported.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Entity Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Entity Factory - Method GetEntityProvider - NamedType UnsupportedEntityErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 296433886 - Method 289407846 - NamedType 2750023907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No coordinates available. Please geocode the address first.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Map URL Formatter - Method OpenMapForCoordinates - NamedType NoCoordinatesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2094507409 - Method 3619404206 - NamedType 1069379362" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt template %1 not found.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Template code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Prompt Engine - Method BuildPrompt - NamedType TemplateNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2094507409 - Method 3619404206 - NamedType 1302358671" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt template %1 is not enabled.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Template code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Prompt Engine - Method BuildPrompt - NamedType TemplateNotEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072277068 - Method 1631383628 - NamedType 1206268896" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Business Central entity data was provided in this request. Please inform the user that they must select an entity type or provide entity information to receive Business Central data-based answers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Response Constraints - Method BuildEntityGroundedSystemPrompt - NamedType NoDataFallbackMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072277068 - Method 2170510613 - NamedType 2029868829" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To receive Business Central entity-based answers, please select an Entity Type from the Context &amp; Filters section or provide an entity number/name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Response Constraints - Method GetEntityRequiredFallbackMessage - NamedType ChatFallbackMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072277068 - Method 2170510613 - NamedType 3404978971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to answer. No Business Central entity data was provided. This feature requires entity context to operate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Response Constraints - Method GetEntityRequiredFallbackMessage - NamedType PromptFallbackMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1320264833 - NamedType 2661167704" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI capability is not enabled or Azure OpenAI authorization is missing. Validate GeoAI setup and Copilot capability activation.</source>
+          <note from="Developer" annotates="general" priority="2">Shown when IsInitialized returns false.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Service (AOAI) - NamedType CapabilityNotInitializedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1320264833 - NamedType 4273976709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AOAI request failed after %1 attempts. Status: %2. %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = attempts, %2 = status, %3 = error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Service (AOAI) - NamedType FailureDetailLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1320264833 - NamedType 213724850" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status %1. %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Status code, %2 = Error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Service (AOAI) - NamedType FailureStatusLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1320264833 - NamedType 770339084" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure OpenAI request failed (status %1). %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = status code, %2 = error text surfaced to the user</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Service (AOAI) - NamedType FailureUserMessageLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1320264833 - NamedType 1204824409" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status 0 indicates Business Central blocked the request before reaching Azure OpenAI. Validate Copilot capability enrollment, GeoAI setup, and AOAI credentials.</source>
+          <note from="Developer" annotates="general" priority="2">Shown when AOAI status code is 0 and no detailed error is provided.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoAI Service (AOAI) - NamedType StatusZeroHintLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1384608357 - Method 54628335 - NamedType 673057885" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity type is not supported for geocoding in the OSS version. Only Customer and Vendor are supported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GeoLocation Mgmt - Method GeocodeRecord - NamedType UnsupportedEntityErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1406044388 - Method 2001141240 - NamedType 2100988429" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor not found: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Record ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Vendor Geo Provider - Method GetLocationContext - NamedType RecordNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1406044388 - Method 72619945 - NamedType 2747702754" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This entity has geocoding status with Low Confidence. Coordinates may not be accurate.\\Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Vendor Geo Provider - Method ValidateGeocodingStatus - NamedType LowConfidenceQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI for Business Central</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - NamedType 3270582348" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI request failed. Details: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Provider error text shown to the user.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - NamedType AiRequestFailedLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - NamedType 1736108776" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter a prompt or select one from the guide.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - NamedType EmptyPromptErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - NamedType 2220518015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No templates match this action for %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Anchor entity caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - NamedType NoTemplatesForActionLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - NamedType 2327978709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unknown error.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - NamedType UnknownErrorDetailLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 76061626" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType CustomerLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 1485212386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType VendorLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 3629245473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Code, %2 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType LocationLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 1341770390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType ContactLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 3877179604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee %1 - %2 %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = First Name, %3 = Last Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType EmployeeLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 3219801116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType ResourceLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 2698525383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = Description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType JobLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3771713889 - NamedType 2158780623" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account %1 - %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method BuildEntityContextText - NamedType BankAccountLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 1330224318 - NamedType 2869651475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Response generated successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method RunGenerate - NamedType GenOkMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 3624913876 - NamedType 3164293952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This %1 is not geocoded yet. Please run "Geocode Address" first before using GeoAI features.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Entity type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method ValidateEntityGeocoding - NamedType NotGeocodedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Method 2546912357 - NamedType 2575794518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No geocoded %1 found within %2 km of this entity. Consider increasing the search radius.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Entity type, %2 = Radius</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Method ValidateNearbyCandidates - NamedType NoCandidatesErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 885239378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control PromptGuide - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 2119932696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Actions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control ResultActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 1335281131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays errors returned by the AI provider.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control ResultError - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 407917504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control ResultSurface - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 2853286163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Answer-focused view of the latest GeoAI response.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control AnswerText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 2773932051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Context</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control ContextInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 2852988976 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the entity this prompt is about.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control EntityContext - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 2852988976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control EntityContext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 847561458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum number of results to return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control MaxResults - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 847561458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control MaxResults - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 4066059354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The radius in kilometers for proximity searches.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control RadiusKm - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 4066059354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Search Radius (km)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control RadiusKm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Control 1523752574 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Describe what you need, or pick a prompt from the guide below...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Control InputPrompt - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 3632190029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analytics &amp; Insights</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action AnalyticsScenarios - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2851284484 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Identify clusters and patterns for anchored records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ClusterAnalysis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2851284484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cluster Analysis...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ClusterAnalysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 479371352 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluate heatmaps and coverage for anchored records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action CoverageAnalysis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 479371352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coverage Analysis...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action CoverageAnalysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1621310994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find potential expansion locations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ExpansionOpportunities - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1621310994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expansion Opportunities...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ExpansionOpportunities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2445797500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proximity &amp; Search</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ProximityScenarios - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1164227450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find nearby records relative to the current entity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action FindNearby - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1164227450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Nearby...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action FindNearby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1139874769 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find the nearest relevant records based on anchor context.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action FindNearest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1139874769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Nearest...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action FindNearest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 3412128074 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Search within a broader region around the current entity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action SearchRegion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 3412128074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Search in Region...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action SearchRegion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 1028902211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routing &amp; Planning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action RoutingScenarios - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2390105326 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an optimized multi-stop route.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action PlanRoute - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2390105326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan Route...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action PlanRoute - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2882845961 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule deliveries or visits based on proximity and time windows.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ScheduleVisits - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2882845961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule Visits...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action ScheduleVisits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 3941740063 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze and optimize sales territories.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action TerritoryPlanning - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 3941740063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Territory Planning...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action TerritoryPlanning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 788258546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel and close the dialog without saving.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action Cancel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2626368477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate AI response based on your prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action Generate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2079045816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accept the result and close the dialog.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action OK - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3757053195 - Action 2388911040 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regenerate the AI response with the same prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt - Action Regenerate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Control 3924009437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scenario category (Proximity, Routing, Analytics).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Control Scenario Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Control 3924009437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Control Scenario Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Action 3215510325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply this template to the prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Action UseTemplate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 344993037 - Action 3215510325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use This Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Guide - Action UseTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Prompt Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 4126130292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Configuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 2698853144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default search radius in kilometers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Default Radius (km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether this template is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 2732087686 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the template was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Last Modified DateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3359165130 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of results to return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Max Results - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 237762718 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique code for the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 694256805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entity type this template applies to. OSS supports Customer and Vendor only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Entity Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3924009437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the scenario code for this template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Scenario Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the title of the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 2014050609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxonomy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Taxonomy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3205983750 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which entity provides the context anchor for the template. OSS supports Any, Customer, and Vendor only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Anchor Entity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3205983750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Anchor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Anchor Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the taxonomy category that best describes the template's outcome.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 1787696736 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the intended action or analysis performed by the template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Intent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the template operates on the record itself, its relations, or the wider network. OSS supports Self, Selection, and Region only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Scope - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 221469294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the primary entity this template targets when generating results. OSS supports Any, Same as Anchor, Customer, and Vendor only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Target Entity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Control 221469294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Control Target Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Action 880782195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens an editor for the template text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Action EditTemplateText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Action 880782195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Template Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Action EditTemplateText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Action 4112264471 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a read-only viewer for the system text.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Action ViewSystemText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1985356211 - Action 4112264471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View System Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Template - Action ViewSystemText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Prompt Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3205983750 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which entity provides context anchoring for the template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Anchor Entity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3205983750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Anchor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Anchor Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the taxonomy category that best describes this template.'s outcome.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique code for the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether this template is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 694256805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entity type this template applies to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Entity Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 1787696736 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the intended action or analysis performed by the template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Intent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 2732087686 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the template was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Last Modified DateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3924009437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the scenario classification for this template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Scenario Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 3924009437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Scenario Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the scope of data the template expects (self, related, or network).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Scope - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 221469294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the primary entity this template targets when generating output.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Target Entity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 221469294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Target Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the title of the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1660596382 - Control 237762718 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Prompt Templates - Control Version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Method 2657040723 - NamedType 1135367153" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No data available to export.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Method RunExportPrompt - NamedType NoDataToExportMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Method 1795643805 - NamedType 3970746100" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No location data available to display on the map.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Method RunOpenMapViewer - NamedType NoDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Method 1795643805 - NamedType 1680938876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have %1 items to display. Opening all items on the map may be slow or limited by the map provider.\\ \Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of items</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Method RunOpenMapViewer - NamedType TooManyItemsMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Method 1795643805 - NamedType 3393822994" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have %1 items to display. Most map providers limit the number of waypoints to 25-50.\\ \Options:\- Click OK to open the first 25 items\- Click Cancel and use "Export Result Items" to create a KML file for advanced mapping tools</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of items</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Method RunOpenMapViewer - NamedType VeryLargeSetMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 3872002567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the distance in kilometers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control DistanceKm - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 3872002567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Distance (km)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control DistanceKm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 3991114375 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the estimated time of arrival in minutes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control ETAMinutes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 3991114375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ETA (minutes)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control ETAMinutes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 2835048180 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique identifier of the result item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control ItemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 2835048180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control ItemId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 1266564 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the latitude coordinate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control Latitude - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 1270796821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the longitude coordinate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control Longitude - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the result item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Control 2219487564 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the relevance score of the result.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Control Score - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Action 1899278948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export the latest AI Prompt response to a file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Action ExportPrompt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Action 1899278948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Prompt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Action ExportPrompt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Action 14486892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the AI results on an interactive map.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Action OpenMap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 288908070 - Action 14486892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Result Items - Action OpenMap - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 2723343971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI Provider</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control AIProvider - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3931242731 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the AI service provider for GeoAI operations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control AI Provider - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3324488970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL for local AI gateway.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Local AI Gateway URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1852400685 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Foundry API version (e.g., 2025-01-01-preview).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Microsoft Foundry API Version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1852400685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Microsoft Foundry API Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 629903614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the endpoint URL for Microsoft Foundry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Microsoft Foundry Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 4290668786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the API key for Microsoft Foundry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Microsoft Foundry Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 603122754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the deployed model to use (e.g., gpt-4o, gpt-4o-mini).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Microsoft Foundry Model - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 603122754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Model Deployment Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Microsoft Foundry Model - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 2671787888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cache &amp; Performance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control CachePerformance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1532131330 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically clear geocode and mark for re-geocoding when address fields change on entities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Auto Geocode on Address Change - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3961749803 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether result caching is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Cache Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 2426745765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cache time-to-live in hours.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Cache TTL Hours - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1530695174 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default precision for geohash spatial indexing (1-12). Higher = more precise/smaller area. Typical: 6 (~1.2km).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Default Geohash Precision - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1954318733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of days to retain geocode cache entries before automatic purge.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Geocode Cache Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 2012080182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum tokens allowed for input (prompt + context).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Max Input Tokens - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 6255398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of retry attempts for failed AI calls.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Max Retry Attempts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 349636872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum time to wait for AI response in milliseconds.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Timeout (ms) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3796964975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Candidate Selection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control CandidateSelection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1854195181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geographic search radius in kilometers for candidate selection. Candidates beyond this distance from the anchor are excluded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Candidate Search Radius - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1456961384 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restrict candidates to the same country as the anchor entity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Enforce Same Country - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3749613239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum number of candidate entities to send to AI for similarity analysis. Higher values increase accuracy but cost. Hard cap: 200.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Max Candidates Sent To AI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 2899187186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Security &amp; Privacy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control DataSecurity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1269813797 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level of PII redaction before sending data to AI. Light: mask emails/phones. Strict: aggressive masking.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Redaction Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3214774615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map Provider</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control MapProvider - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 3541915011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the subscription key for Azure Maps services.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Azure Maps Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1363359139 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the API key for Google Maps services.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Google Maps API Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1183342911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the map and geocoding service provider.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Map Provider - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1875682494 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web interface URL for viewing single location on map. Example: https://www.google.com/maps for Google or https://www.bing.com/maps for Azure/Bing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Map View URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1875682494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map View URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Map View URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 504417726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web interface URL for displaying multi-point directions/routes. Example: https://www.google.com/maps/dir/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Maps Directions URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 504417726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Directions Web URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Maps Directions URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 527337377 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API endpoint for geocoding (converting addresses to coordinates). Example: https://maps.googleapis.com/maps/api/geocode/json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Maps Endpoint URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 527337377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geocoding API Endpoint</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Maps Endpoint URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 1462872145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telemetry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Telemetry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Control 987636274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether telemetry logging is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Control Enable Telemetry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 785052685 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates the 18 standard GeoAI prompt templates (9 per entity × 2 entities: Customer, Vendor). Safe to run multiple times - only creates missing templates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action InitializeTemplates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 785052685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initialize Prompt Templates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action InitializeTemplates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 785052685 - Method 1377591017 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This will initialize 36 standard prompt templates for Customer and Vendor entities. Continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action InitializeTemplates - Method OnAction - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 785052685 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prompt templates initialized successfully. Templates are now available in the Ask GeoAI dialog.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action InitializeTemplates - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 1177655027 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manually purge geocode cache entries older than the configured retention period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action PurgeGeocodeCache - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 1177655027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purge Geocode Cache</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action PurgeGeocodeCache - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 1177655027 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geocode cache purge completed. %1 entries deleted.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of entries</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action PurgeGeocodeCache - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 4263468516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tests the connection to configured AI services.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action TestConnection - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 4263468516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action TestConnection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 4263468516 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AI connection OK (%1). Latency: %2 ms. Preview: %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = provider, %2 = milliseconds, %3 = first chars of response</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action TestConnection - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 4263468516 - Method 1377591017 - NamedType 1860918156" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please select an AI Provider to test.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action TestConnection - Method OnAction - NamedType ProviderMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 4263468516 - Method 1377591017 - NamedType 57709113" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connection reached but response could not be parsed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action TestConnection - Method OnAction - NamedType ParseFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 1178923586 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validates that all required configuration settings are present.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action ValidateConfiguration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 1178923586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validate Configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action ValidateConfiguration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 159805838 - Action 1178923586 - Method 1377591017 - NamedType 1275772751" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configuration is valid and ready to use.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Setup - Action ValidateConfiguration - Method OnAction - NamedType ConfigValidMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Prompt Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quick Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 116445307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quickly narrow templates by scope.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control ScopeFilterValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 116445307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control ScopeFilterValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 4018061918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quickly narrow templates by target entity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control TargetFilterValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 4018061918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Entity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control TargetFilterValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Short explanation of what the template does.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope of data the template expects (self, selection, company, region).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Scope - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 593885934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Scope - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 221469294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary entity this template targets when generating output.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Target Entity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 221469294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Target Entity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template title that will populate the AI prompt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 237762718 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template version identifier.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Control 237762718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Control Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Action 1132479629 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the quick filter for scope.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Action ClearScopeFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Action 1132479629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Scope Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Action ClearScopeFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Action 3366085036 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the quick filter for target entity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Action ClearTargetFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Action 3366085036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Target Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Action ClearTargetFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Action 3215510325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply the selected prompt template.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Action UseTemplate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2003469741 - Action 3215510325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Template Picker - Action UseTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 438137771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text Editor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Text Editor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 438137771 - Control 2414046104 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The text content to view or edit.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Text Editor - Control TextContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 438137771 - Control 2414046104 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GeoAI Text Editor - Control TextContent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 1905171540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>GeoAI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action GeoAIActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 2997372552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Opens GeoAI prompt copilot for this customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action AskGeoAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 2997372552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Ask GeoAI...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action AskGeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 1954364106 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Geocodes the customer address to get coordinates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action GeocodeAddress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 1954364106 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Geocode Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action GeocodeAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 1954364106 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3009425975">
+          <source>Address geocoded successfully. Confidence: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Confidence score</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action GeocodeAddress - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 1954364106 - Method 1377591017 - NamedType 2706458790" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3009425975">
+          <source>Geocoding failed. Please check the address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action GeocodeAddress - Method OnAction - NamedType FailedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 3515900324 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Opens the customer location in an external mapping service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action ViewOnMap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Action 3515900324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>View on Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Action ViewOnMap - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Control 39320383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>GeoAI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Control GeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Control 1100480403 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the confidence score of the geocoding result.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Control GeoAI Geocode Confidence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Control 619460197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the status of the geocoding operation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Control GeoAI Geocode Status Field - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Control 1959563346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies when the address was last geocoded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Control GeoAI Last Geocode DateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Control 31421647 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the latitude coordinate of the customer address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Control GeoAI Latitude - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3009425975 - Control 339370378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the longitude coordinate of the customer address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card GeoAI - Control GeoAI Longitude - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 39320383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>GeoAI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action GeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 2997372552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Opens GeoAI prompt copilot for the selected customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action AskGeoAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 2997372552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Ask GeoAI...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action AskGeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 2218290947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Geocodes addresses for all selected customers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action GeocodeSelected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 2218290947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Geocode Selected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action GeocodeSelected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 2218290947 - Method 1377591017 - NamedType 1000503204" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1065460285">
+          <source>Geocoding complete. Success: %1, Failed: %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Success count, %2 = Fail count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action GeocodeSelected - Method OnAction - NamedType ResultMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 3515900324 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Opens the first selected customer location in an external mapping service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action ViewOnMap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1065460285 - Action 3515900324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>View on Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List GeoAI - Action ViewOnMap - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 1905171540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>GeoAI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action GeoAIActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 2997372552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Opens GeoAI prompt copilot for this vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action AskGeoAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 2997372552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Ask GeoAI...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action AskGeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 1954364106 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Geocodes the vendor address to get coordinates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action GeocodeAddress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 1954364106 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Geocode Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action GeocodeAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 1954364106 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3709184447">
+          <source>Address geocoded successfully. Confidence: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Confidence score</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action GeocodeAddress - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 1954364106 - Method 1377591017 - NamedType 2706458790" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3709184447">
+          <source>Geocoding failed. Please check the address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action GeocodeAddress - Method OnAction - NamedType FailedMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 3515900324 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Opens the vendor location in an external mapping service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action ViewOnMap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Action 3515900324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>View on Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Action ViewOnMap - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Control 39320383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>GeoAI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Control GeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Control 1100480403 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the confidence score of the geocoding result.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Control GeoAI Geocode Confidence - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Control 619460197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the status of the geocoding operation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Control GeoAI Geocode Status Field - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Control 1959563346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies when the address was last geocoded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Control GeoAI Last Geocode DateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Control 31421647 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the latitude coordinate of the vendor address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Control GeoAI Latitude - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3709184447 - Control 339370378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the longitude coordinate of the vendor address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card GeoAI - Control GeoAI Longitude - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 39320383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>GeoAI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action GeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 2997372552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Opens GeoAI prompt copilot for the selected vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action AskGeoAI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 2997372552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Ask GeoAI...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action AskGeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 2218290947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Geocodes addresses for all selected vendors.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action GeocodeSelected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 2218290947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Geocode Selected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action GeocodeSelected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 2218290947 - Method 1377591017 - NamedType 1000503204" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1791221701">
+          <source>Geocoding complete. Success: %1, Failed: %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Success count, %2 = Fail count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action GeocodeSelected - Method OnAction - NamedType ResultMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 3515900324 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Opens the first selected vendor location in an external mapping service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action ViewOnMap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1791221701 - Action 3515900324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>View on Map</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor List GeoAI - Action ViewOnMap - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 1100480403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Geocode Confidence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI Geocode Confidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 1375223542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Geocode Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI Geocode Source Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 619460197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Geocode Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI Geocode Status Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 2371881814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>GeoHash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI GeoHash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 1959563346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Last Geocode DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI Last Geocode DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 31421647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Latitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI Latitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1168626731 - Field 339370378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Longitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer GeoAI - Field GeoAI Longitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 1100480403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Geocode Confidence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI Geocode Confidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 1375223542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Geocode Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI Geocode Source Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 619460197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Geocode Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI Geocode Status Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 2371881814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>GeoHash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI GeoHash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 1959563346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Last Geocode DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI Last Geocode DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 31421647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Latitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI Latitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3622514547 - Field 339370378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Longitude</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor GeoAI - Field GeoAI Longitude - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3310518704 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI AI Provider - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3310518704 - EnumValue 1227106983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local AI Gateway</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI AI Provider - EnumValue LocalGateway - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3310518704 - EnumValue 3371344507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Foundry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI AI Provider - EnumValue MicrosoftFoundry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 2846663002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Any</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Any - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 2663384385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue BankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 1498446062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Job - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3318925257 - EnumValue 1936001480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Anchor Entity - EnumValue Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 2663384385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue BankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 1498446062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Job - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 1274142399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Universal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Universal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 611806474 - EnumValue 1936001480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Entity Type - EnumValue Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2002457132 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Source - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2002457132 - EnumValue 1541658731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Maps</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Source - EnumValue Azure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2002457132 - EnumValue 1341647219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Google Maps</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Source - EnumValue Google - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2002457132 - EnumValue 1508634494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manual</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Source - EnumValue Manual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1527890427 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1527890427 - EnumValue 3826689261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Status - EnumValue Failed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1527890427 - EnumValue 313803076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Low Confidence</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Status - EnumValue LowConfidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1527890427 - EnumValue 3878926381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Success</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Geocode Status - EnumValue Success - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1543435828 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Map Provider - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1543435828 - EnumValue 1541658731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure Maps</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Map Provider - EnumValue Azure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1543435828 - EnumValue 1341647219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Google Maps</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Map Provider - EnumValue Google - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2870750749 - EnumValue 1252870325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analytics &amp; Insights</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Scenario - EnumValue AnalyticsInsights - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2870750749 - EnumValue 2231186413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proximity &amp; Search</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Scenario - EnumValue ProximitySearch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2870750749 - EnumValue 2634435859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routing &amp; Planning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Scenario - EnumValue RoutingPlanning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 2846663002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Any</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Any - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 2663384385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue BankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 1498446062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Job - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 658811355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Same as Anchor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue SameAsAnchor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 984020529 - EnumValue 1936001480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Target Entity - EnumValue Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3782553319 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Category - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3782553319 - EnumValue 1252870325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analytics &amp; Insights</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Category - EnumValue AnalyticsInsights - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3782553319 - EnumValue 2231186413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Proximity &amp; Search</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Category - EnumValue ProximitySearch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3782553319 - EnumValue 2634435859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Routing &amp; Planning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Category - EnumValue RoutingPlanning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 1644269158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cluster Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue Cluster - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 1335298042 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coverage Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue Coverage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 1170142371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expansion Opportunities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue Expansion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 1164227450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Nearby</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue FindNearby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 1139874769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Nearest</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue FindNearest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 2390105326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan Route</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue PlanRoute - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 2882845961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule Visits</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue ScheduleVisits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 1552384235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Search in Region</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue SearchInRegion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 3941740063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Territory Planning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue TerritoryPlanning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120166859 - EnumValue 4275046174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undefined</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Intent - EnumValue Undefined - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3037009673 - EnumValue 3133801257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Scope - EnumValue Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3037009673 - EnumValue 2241665020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Region</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Scope - EnumValue Region - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3037009673 - EnumValue 870794884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Scope - EnumValue Selection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3037009673 - EnumValue 3452210768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Self</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum GeoAI Template Scope - EnumValue Self - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2937965055 - EnumValue 39320383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3058546390">
+          <source>GeoAI for Business Central</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension GeoAI Copilot Cap - EnumValue GeoAI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1614373694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GeoAI OSS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet GeoAI OSS - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,41 @@
+# Business Central AL compiled artifacts
+*.app
+
+# AL package cache
+.alpackages/
+docs/
+
+# AL test runner
+.altestrunner/
+
+# Snapshots may contain sensitive data
+.snapshots/
+
+# VS Code settings (may contain environment-specific data)
+.vscode/
+
+# Backup and temporary files
+*.bak
+*.flf
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+output/
+bin/
+obj/
+
+# Sensitive local configuration
+appsettings.local.json
+launchSettings.json
+
+# Internal agent/conductor assets (keep CI workflows public)
+.github/agents/
+.github/instructions/
+.github/plans/
+.github/prompts/
