@@ -1,0 +1,10 @@
+{
+    "country": "w1",
+    "repoVersion": "1.0",
+    "appFolders": [
+        "."
+    ],
+    "testFolders": [],
+    "bcContainerHelperVersion": "latest",
+    "runs-on": "windows-latest"
+}

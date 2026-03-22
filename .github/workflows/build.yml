@@ -16,19 +16,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup AL-Go
+    - name: Build with AL-Go
       uses: microsoft/AL-Go-Actions/RunPipeline@v6.3
       with:
         shell: powershell
+        parentTelemetryScopeJson: '{}'
         project: .
-        
-    - name: Build AL Extension
-      run: |
-        Write-Host "Building GeoAI OSS extension..."
-        # The AL-Go action above handles the actual build
-        # This step is a placeholder for additional build verification
-      shell: powershell
-      
+        buildMode: Default
+
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
       if: success()
