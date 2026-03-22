@@ -85,7 +85,7 @@ jobs:
 
         $builtApp = Get-ChildItem -Path $outputPath -Filter "*.app" | Select-Object -First 1
         if ($builtApp) {
-          Write-Host "✓ Build successful: $($builtApp.Name)"
+          Write-Host "Build successful: $($builtApp.Name)"
         } else {
           Write-Error "No .app file produced"
           exit 1
@@ -134,7 +134,7 @@ jobs:
           Write-Error "Potential secrets detected. Review matches above."
           exit 1
         } else {
-          Write-Host "✓ No obvious secrets detected in source code"
+          Write-Host "No obvious secrets detected in source code"
         }
 
     - name: Verify no compiled artifacts committed
@@ -147,5 +147,5 @@ jobs:
           $committedApps | ForEach-Object { Write-Error "  - $_" }
           exit 1
         } else {
-          Write-Host "✓ No compiled artifacts in git"
+          Write-Host "No compiled artifacts in git"
         }
