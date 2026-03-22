@@ -28,64 +28,52 @@ jobs:
       run: |
         Import-Module BcContainerHelper
 
-        $appJson = Get-Content -Path "app.json" -Raw | ConvertFrom-Json
-        $appVersion = $appJson.application
-        Write-Host "App requires BC application version: $appVersion"
+        $appJson = Get-Content -Path 'app.json' -Raw | ConvertFrom-Json
+        $fullVer = [version]$appJson.application
+        $majorMinor = "$($fullVer.Major).$($fullVer.Minor)"
+        Write-Host "App targets BC application $($appJson.application) - resolving artifacts for $majorMinor"
 
-        # Resolve the matching BC artifact for compilation
-        $artifactUrl = Get-BCArtifactUrl `
-          -type OnPrem `
-          -country w1 `
-          -version $appVersion `
-          -select Latest
-        Write-Host "Using artifact: $artifactUrl"
-
-        # Download symbols (System + Base app)
-        $symbolsPath = Join-Path $env:GITHUB_WORKSPACE ".alpackages"
-        New-Item -ItemType Directory -Path $symbolsPath -Force | Out-Null
-
-        Download-Artifacts -artifactUrl $artifactUrl -basePath (Join-Path $env:RUNNER_TEMP "bcartifacts")
-        $artifactPaths = Get-ChildItem -Path (Join-Path $env:RUNNER_TEMP "bcartifacts") -Recurse -Directory
-
-        # Locate the AL compiler (alc.exe)
-        $alcPath = Get-ChildItem -Path (Join-Path $env:RUNNER_TEMP "bcartifacts") `
-          -Filter "alc.exe" -Recurse | Select-Object -First 1
-
-        if (-not $alcPath) {
-          Write-Error "Could not find alc.exe in downloaded artifacts"
+        $artifactUrl = Get-BCArtifactUrl -type Sandbox -country w1 -version $majorMinor -select Closest
+        if (-not $artifactUrl) {
+          Write-Error "No BC Sandbox artifact found for version $majorMinor"
           exit 1
         }
-        Write-Host "Found AL compiler: $($alcPath.FullName)"
+        Write-Host "Resolved artifact: $artifactUrl"
 
-        # Locate system and base app symbols
-        $appFiles = Get-ChildItem -Path (Join-Path $env:RUNNER_TEMP "bcartifacts") `
-          -Filter "*.app" -Recurse
-        foreach ($app in $appFiles) {
-          Copy-Item -Path $app.FullName -Destination $symbolsPath -Force
+        $basePath = Join-Path $env:RUNNER_TEMP 'bcartifacts'
+        Download-Artifacts -artifactUrl $artifactUrl -basePath $basePath
+
+        $alc = Get-ChildItem -Path $basePath -Filter 'alc.exe' -Recurse | Select-Object -First 1
+        if (-not $alc) {
+          Write-Error "alc.exe not found in downloaded artifacts"
+          exit 1
         }
-        Write-Host "Copied $($appFiles.Count) symbol files to $symbolsPath"
+        Write-Host "AL Compiler: $($alc.FullName)"
 
-        # Compile the extension
-        $outputPath = Join-Path $env:GITHUB_WORKSPACE "output"
+        $symbolsPath = Join-Path $env:GITHUB_WORKSPACE '.alpackages'
+        New-Item -ItemType Directory -Path $symbolsPath -Force | Out-Null
+        $symbols = Get-ChildItem -Path $basePath -Filter '*.app' -Recurse
+        $symbols | ForEach-Object { Copy-Item $_.FullName -Destination $symbolsPath -Force }
+        Write-Host "Copied $($symbols.Count) symbol packages"
+
+        $outputPath = Join-Path $env:GITHUB_WORKSPACE 'output'
         New-Item -ItemType Directory -Path $outputPath -Force | Out-Null
 
-        $alcArgs = @(
-          "/project:$env:GITHUB_WORKSPACE"
-          "/packagecachepath:$symbolsPath"
-          "/out:$outputPath"
-          "/assemblyprobingpaths:$((Get-ChildItem -Path (Join-Path $env:RUNNER_TEMP 'bcartifacts') -Directory | Select-Object -First 1).FullName)"
-        )
+        $dotnetAssemblies = Get-ChildItem -Path $basePath -Directory -Recurse |
+          Where-Object { Test-Path (Join-Path $_.FullName 'Microsoft.Dynamics.Nav.Server.exe') } |
+          Select-Object -First 1
+        $probingPath = if ($dotnetAssemblies) { $dotnetAssemblies.FullName } else { $basePath }
 
         Write-Host "Compiling AL extension..."
-        & $alcPath.FullName $alcArgs
+        & $alc.FullName /project:"$env:GITHUB_WORKSPACE" /packagecachepath:"$symbolsPath" /out:"$outputPath" /assemblyprobingpaths:"$probingPath"
         if ($LASTEXITCODE -ne 0) {
-          Write-Error "AL compilation failed with exit code $LASTEXITCODE"
+          Write-Error "AL compilation failed (exit code $LASTEXITCODE)"
           exit $LASTEXITCODE
         }
 
-        $builtApp = Get-ChildItem -Path $outputPath -Filter "*.app" | Select-Object -First 1
-        if ($builtApp) {
-          Write-Host "Build successful: $($builtApp.Name)"
+        $result = Get-ChildItem -Path $outputPath -Filter '*.app' | Select-Object -First 1
+        if ($result) {
+          Write-Host "Build successful: $($result.Name) ($([math]::Round($result.Length / 1KB)) KB)"
         } else {
           Write-Error "No .app file produced"
           exit 1
