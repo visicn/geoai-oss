@@ -3,10 +3,6 @@
   "templateUrl": "https://github.com/microsoft/AL-Go@main",
   "country": "us",
   "repoVersion": "1.0",
-  "appFolders": [
-    "."
-  ],
-  "testFolders": [],
   "enableCodeCop": false,
   "enableUICop": false,
   "enablePerTenantExtensionCop": true,
