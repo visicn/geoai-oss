@@ -1,0 +1,17 @@
+{
+  "type": "PTE",
+  "templateUrl": "https://github.com/microsoft/AL-Go@main",
+  "country": "us",
+  "artifact": "bcserver:///us/27.0",
+  "repoVersion": "1.0",
+  "appFolders": [
+    "."
+  ],
+  "testFolders": [],
+  "appSourceCopMandatoryAffixes": [],
+  "enableCodeCop": false,
+  "enableUICop": false,
+  "enablePerTenantExtensionCop": true,
+  "doNotPublishApps": true,
+  "doNotSignApps": true
+}

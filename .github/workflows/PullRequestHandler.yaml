@@ -1,0 +1,71 @@
+name: Pull Request Handler
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+    types: [ opened, synchronize, reopened, edited ]
+    paths-ignore:
+      - '**.md'
+      - '.github/**'
+      - '!.github/workflows/PullRequestHandler.yaml'
+      - '!.github/AL-Go-Settings.json'
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+  actions: read
+
+defaults:
+  run:
+    shell: powershell
+
+jobs:
+  PullRequestHandler:
+    runs-on: [ windows-latest ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Initialize the workflow
+        id: init
+        uses: microsoft/AL-Go-Actions/WorkflowInitialize@main
+        with:
+          shell: powershell
+          eventId: "DO0090"
+
+      - name: Read settings
+        uses: microsoft/AL-Go-Actions/ReadSettings@main
+        with:
+          shell: powershell
+
+      - name: Read secrets
+        uses: microsoft/AL-Go-Actions/ReadSecrets@main
+        env:
+          secrets: ${{ toJson(secrets) }}
+        with:
+          shell: powershell
+          settingsJson: ${{ env.Settings }}
+
+      - name: Determine Changed Files
+        id: determineChangedFiles
+        uses: microsoft/AL-Go-Actions/DetermineChangedFiles@main
+        with:
+          shell: powershell
+
+      - name: Run Pull Request Handler
+        uses: microsoft/AL-Go-Actions/PullRequestHandler@main
+        with:
+          shell: powershell
+          token: ${{ secrets.GITHUB_TOKEN }}
+          parentTelemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}
+          settingsJson: ${{ env.Settings }}
+          secretsJson: ${{ env.RepoSecrets }}
+
+      - name: Finalize the workflow
+        if: always()
+        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@main
+        with:
+          shell: powershell
+          eventId: "DO0090"
+          telemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}

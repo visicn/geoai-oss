@@ -22,6 +22,36 @@ GeoAI OSS is an open-source Microsoft Dynamics 365 Business Central extension th
 - Application: **27.0.0.0** (see `app.json`)
 - Uses the **System.AI** namespace for chat completions (`Azure OpenAI` codeunit), so a BC version that includes these capabilities is required.
 
+## Build & CI/CD
+
+This repository uses **AL-Go for GitHub** for automated builds and continuous integration.
+
+### For Contributors
+
+- **Automated builds**: Every push to `main` or `develop` branches triggers a build workflow
+- **Pull request validation**: PRs are automatically validated before merge
+- **No secrets required for compilation**: The build process only requires the standard BC artifacts and does not need API keys or credentials for compilation
+
+### Available Workflows
+
+The following GitHub Actions workflows are available under the **Actions** tab:
+
+- **CICD**: Main build and validation workflow (triggered automatically on push/PR)
+- **Pull Request Handler**: Validates pull requests (triggered automatically)
+- **Create release**: Manually create a release with version tagging
+- **Increment version number**: Manually bump the app version
+- **Update AL-Go System Files**: Update to the latest AL-Go template version
+
+### Local Development
+
+For local development, you can:
+1. Clone this repository
+2. Open in Visual Studio Code with the AL Language extension
+3. Download BC artifacts matching the version in `app.json`
+4. Build and test locally
+
+For more information about AL-Go for GitHub, see: https://github.com/microsoft/AL-Go
+
 ## Configuration (GeoAI Setup)
 
 Open the **GeoAI Setup** page and configure:
