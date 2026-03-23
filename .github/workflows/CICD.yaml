@@ -6,16 +6,18 @@ on:
     branches: [ main, develop ]
     paths-ignore:
       - '**.md'
-      - '.github/**'
-      - '!.github/workflows/CICD.yaml'
-      - '!.github/AL-Go-Settings.json'
+      - '.github/instructions/**'
+      - '.github/plans/**'
+      - '.github/prompts/**'
+      - '.github/agents/**'
   pull_request:
     branches: [ main, develop ]
     paths-ignore:
       - '**.md'
-      - '.github/**'
-      - '!.github/workflows/CICD.yaml'
-      - '!.github/AL-Go-Settings.json'
+      - '.github/instructions/**'
+      - '.github/plans/**'
+      - '.github/prompts/**'
+      - '.github/agents/**'
 
 permissions:
   contents: read
@@ -45,7 +47,6 @@ jobs:
         uses: microsoft/AL-Go-Actions/WorkflowInitialize@main
         with:
           shell: powershell
-          eventId: "DO0091"
 
       - name: Read settings
         id: ReadSettings
@@ -104,7 +105,7 @@ jobs:
         if: github.event_name != 'pull_request'
         with:
           name: ${{ steps.calculateArtifactNames.outputs.AppsArtifactsName }}
-          path: '${{ matrix.project }}/.buildartifacts/Apps/'
+          path: '.buildartifacts/Apps/'
           if-no-files-found: ignore
           retention-days: 30
 
@@ -112,8 +113,8 @@ jobs:
         uses: actions/upload-artifact@v4
         if: github.event_name != 'pull_request'
         with:
-          name: ${{ steps.calculateArtifactsNames.outputs.TestAppsArtifactsName }}
-          path: '${{ matrix.project }}/.buildartifacts/TestApps/'
+          name: ${{ steps.calculateArtifactNames.outputs.TestAppsArtifactsName }}
+          path: '.buildartifacts/TestApps/'
           if-no-files-found: ignore
           retention-days: 30
 
@@ -136,5 +137,4 @@ jobs:
         uses: microsoft/AL-Go-Actions/WorkflowPostProcess@main
         with:
           shell: powershell
-          eventId: "DO0091"
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}

@@ -6,9 +6,10 @@ on:
     types: [ opened, synchronize, reopened, edited ]
     paths-ignore:
       - '**.md'
-      - '.github/**'
-      - '!.github/workflows/PullRequestHandler.yaml'
-      - '!.github/AL-Go-Settings.json'
+      - '.github/instructions/**'
+      - '.github/plans/**'
+      - '.github/prompts/**'
+      - '.github/agents/**'
 
 permissions:
   contents: read
