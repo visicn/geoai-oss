@@ -33,11 +33,6 @@ jobs:
     runs-on: [ windows-latest ]
     outputs:
       telemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}
-      settings: ${{ steps.ReadSettings.outputs.SettingsJson }}
-      projects: ${{ steps.ReadSettings.outputs.ProjectsJson }}
-      projectCount: ${{ steps.ReadSettings.outputs.ProjectCount }}
-      environments: ${{ steps.ReadSettings.outputs.EnvironmentsJson }}
-      githubRunner: ${{ steps.ReadSettings.outputs.GitHubRunnerJson }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,15 +51,8 @@ jobs:
 
   Build:
     needs: [ Initialization ]
-    runs-on: ${{ fromJson(needs.Initialization.outputs.githubRunner) }}
-    strategy:
-      matrix:
-        project: ${{ fromJson(needs.Initialization.outputs.projects) }}
-      fail-fast: false
-    name: Build ${{ matrix.project }}
-    outputs:
-      AppsArtifactsName: ${{ steps.calculateArtifactNames.outputs.AppsArtifactsName }}
-      TestAppsArtifactsName: ${{ steps.calculateArtifactNames.outputs.TestAppsArtifactsName }}
+    runs-on: [ windows-latest ]
+    name: Build
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -73,6 +61,7 @@ jobs:
         uses: microsoft/AL-Go-Actions/ReadSettings@main
         with:
           shell: powershell
+          project: '.'
 
       - name: Read secrets
         uses: microsoft/AL-Go-Actions/ReadSecrets@main
@@ -86,7 +75,7 @@ jobs:
         uses: microsoft/AL-Go-Actions/RunPipeline@main
         with:
           shell: powershell
-          project: ${{ matrix.project }}
+          project: '.'
           settingsJson: ${{ env.Settings }}
           secretsJson: ${{ env.RepoSecrets }}
 
@@ -105,7 +94,7 @@ jobs:
         if: github.event_name != 'pull_request'
         with:
           name: ${{ steps.calculateArtifactNames.outputs.AppsArtifactsName }}
-          path: '.buildartifacts/Apps/'
+          path: './.buildartifacts/Apps/'
           if-no-files-found: ignore
           retention-days: 30
 
@@ -114,7 +103,7 @@ jobs:
         if: github.event_name != 'pull_request'
         with:
           name: ${{ steps.calculateArtifactNames.outputs.TestAppsArtifactsName }}
-          path: '.buildartifacts/TestApps/'
+          path: './.buildartifacts/TestApps/'
           if-no-files-found: ignore
           retention-days: 30
 
