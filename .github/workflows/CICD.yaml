@@ -63,28 +63,20 @@ jobs:
           shell: powershell
           project: '.'
 
-      - name: Read secrets
-        uses: microsoft/AL-Go-Actions/ReadSecrets@main
-        with:
-          shell: powershell
-          gitHubSecrets: ${{ toJson(secrets) }}
-
       - name: Run pipeline
         uses: microsoft/AL-Go-Actions/RunPipeline@main
         with:
           shell: powershell
           project: '.'
-          settingsJson: ${{ env.Settings }}
-          secretsJson: ${{ env.RepoSecrets }}
 
       - name: Calculate Artifact names
         id: calculateArtifactNames
         if: success() || failure()
         run: |
-          $appVersion = '${{ env.appVersion }}'
-          $AppsArtifactsName = "${{ env.GITHUB_REPOSITORY_NAME }}-Apps-$appVersion".Replace('/', '_')
+          $appVersion = '${{ github.run_number }}'
+          $AppsArtifactsName = "${{ github.repository }}-Apps-$appVersion".Replace('/', '_')
           Write-Host "AppsArtifactsName=$AppsArtifactsName" >> $env:GITHUB_OUTPUT
-          $TestAppsArtifactsName = "${{ env.GITHUB_REPOSITORY_NAME }}-TestApps-$appVersion".Replace('/', '_')
+          $TestAppsArtifactsName = "${{ github.repository }}-TestApps-$appVersion".Replace('/', '_')
           Write-Host "TestAppsArtifactsName=$TestAppsArtifactsName" >> $env:GITHUB_OUTPUT
 
       - name: Publish artifacts - apps
@@ -125,3 +117,4 @@ jobs:
         with:
           shell: powershell
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}
+          currentJobContext: ${{ toJson(job) }}
