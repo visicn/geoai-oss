@@ -30,25 +30,25 @@ jobs:
 
       - name: Initialize the workflow
         id: init
-        uses: microsoft/AL-Go-Actions/WorkflowInitialize@main
+        uses: microsoft/AL-Go-Actions/WorkflowInitialize@v9.0
         with:
           shell: powershell
 
       - name: Read settings
-        uses: microsoft/AL-Go-Actions/ReadSettings@main
+        uses: microsoft/AL-Go-Actions/ReadSettings@v9.0
         with:
           shell: powershell
 
       - name: Read secrets
         id: ReadSecrets
-        uses: microsoft/AL-Go-Actions/ReadSecrets@main
+        uses: microsoft/AL-Go-Actions/ReadSecrets@v9.0
         with:
           shell: powershell
           gitHubSecrets: ${{ toJson(secrets) }}
           getSecrets: 'ghTokenWorkflow'
 
       - name: Update AL-Go System Files
-        uses: microsoft/AL-Go-Actions/CheckForUpdates@main
+        uses: microsoft/AL-Go-Actions/CheckForUpdates@v9.0
         with:
           shell: powershell
           token: ${{ fromJson(steps.ReadSecrets.outputs.Secrets).ghTokenWorkflow }}
@@ -59,7 +59,7 @@ jobs:
 
       - name: Finalize the workflow
         if: always()
-        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@main
+        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@v9.0
         with:
           shell: powershell
           telemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}

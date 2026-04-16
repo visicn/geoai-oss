@@ -39,13 +39,13 @@ jobs:
 
       - name: Initialize the workflow
         id: init
-        uses: microsoft/AL-Go-Actions/WorkflowInitialize@main
+        uses: microsoft/AL-Go-Actions/WorkflowInitialize@v9.0
         with:
           shell: powershell
 
       - name: Read settings
         id: ReadSettings
-        uses: microsoft/AL-Go-Actions/ReadSettings@main
+        uses: microsoft/AL-Go-Actions/ReadSettings@v9.0
         with:
           shell: powershell
 
@@ -58,13 +58,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Read settings
-        uses: microsoft/AL-Go-Actions/ReadSettings@main
+        uses: microsoft/AL-Go-Actions/ReadSettings@v9.0
         with:
           shell: powershell
           project: '.'
 
       - name: Run pipeline
-        uses: microsoft/AL-Go-Actions/RunPipeline@main
+        uses: microsoft/AL-Go-Actions/RunPipeline@v9.0
         with:
           shell: powershell
           project: '.'
@@ -99,7 +99,7 @@ jobs:
 
       - name: Cleanup
         if: always()
-        uses: microsoft/AL-Go-Actions/PipelineCleanup@main
+        uses: microsoft/AL-Go-Actions/PipelineCleanup@v9.0
         with:
           shell: powershell
 
@@ -113,7 +113,7 @@ jobs:
 
       - name: Finalize the workflow
         id: PostProcess
-        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@main
+        uses: microsoft/AL-Go-Actions/WorkflowPostProcess@v9.0
         with:
           shell: powershell
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}

@@ -13,19 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Init
-        uses: microsoft/AL-Go-Actions/WorkflowInitialize@main
+        uses: microsoft/AL-Go-Actions/WorkflowInitialize@v9.0
         id: init
         with:
           shell: powershell
 
       - name: Read settings
-        uses: microsoft/AL-Go-Actions/ReadSettings@main
+        uses: microsoft/AL-Go-Actions/ReadSettings@v9.0
         with:
           shell: powershell
 
       - name: Determine Projects to Build
         id: determine_projects
-        uses: microsoft/AL-Go-Actions/DetermineProjectsToBuild@main
+        uses: microsoft/AL-Go-Actions/DetermineProjectsToBuild@v9.0
         with:
           shell: powershell
           maxBuildDepth: 0
