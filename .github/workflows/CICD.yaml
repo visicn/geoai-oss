@@ -63,11 +63,19 @@ jobs:
           shell: powershell
           project: '.'
 
+      - name: Determine ArtifactUrl
+        id: determineArtifactUrl
+        uses: microsoft/AL-Go-Actions/DetermineArtifactUrl@v9.0
+        with:
+          shell: powershell
+          project: '.'
+
       - name: Run pipeline
         uses: microsoft/AL-Go-Actions/RunPipeline@v9.0
         with:
           shell: powershell
           project: '.'
+          artifact: ${{ env.artifact }}
 
       - name: Calculate Artifact names
         id: calculateArtifactNames
