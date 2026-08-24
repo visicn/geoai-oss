@@ -83,9 +83,9 @@ jobs:
         run: |
           $appVersion = '${{ github.run_number }}'
           $AppsArtifactsName = "${{ github.repository }}-Apps-$appVersion".Replace('/', '_')
-          Write-Host "AppsArtifactsName=$AppsArtifactsName" >> $env:GITHUB_OUTPUT
+          "AppsArtifactsName=$AppsArtifactsName" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
           $TestAppsArtifactsName = "${{ github.repository }}-TestApps-$appVersion".Replace('/', '_')
-          Write-Host "TestAppsArtifactsName=$TestAppsArtifactsName" >> $env:GITHUB_OUTPUT
+          "TestAppsArtifactsName=$TestAppsArtifactsName" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
 
       - name: Publish artifacts - apps
         uses: actions/upload-artifact@v4
